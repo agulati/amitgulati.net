@@ -14,7 +14,7 @@ app.configure(function () {
   app.set('port', 9000)
   app.use(app.router)
   app.use(express.static('./public'));
-  // app.use(express.favicon('./public/img/favicon.ico'));
+  app.use(express.favicon('./public/img/favicon.ico'));
 })
 
 app.get('/', function (req, res) {
