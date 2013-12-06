@@ -14,6 +14,27 @@
   margin-top: 10px;
   margin-left: 50px;
 }
+#about {
+  padding: 20px 0;
+}
+#about h2 {
+  margin-bottom: 20px;
+}
+#about h2 a {
+  color: #333;
+  text-decoration: none;
+}
+#about p.lead {
+  text-indent: 15px;
+  font-size: 16px !important;
+}
+.footnote {
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  color: #666;
+}
 @media (max-width: 768px) {
   .header .vert-text {
     padding-left: 55px;
