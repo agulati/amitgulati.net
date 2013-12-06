@@ -11,8 +11,10 @@ var app = express()
 app.configure(function () {
   app.set('views', __dirname + '/views')
   app.set('view engine', 'hbs')
-  app.set('port', 5000)
+  app.set('port', 9000)
   app.use(app.router)
+  app.use(express.static('./public'));
+  // app.use(express.favicon('./public/img/favicon.ico'));
 })
 
 app.get('/', function (req, res) {

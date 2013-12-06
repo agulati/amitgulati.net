@@ -1,0 +1,24 @@
+.header .vert-text {
+  text-align: left;
+  vertical-align: top;
+  padding-top: 210px;
+  padding-left: 145px;
+}
+.header .vert-text h1 {
+  font-size: 4em;
+}
+.header .vert-text h3 {
+  margin-top: 10px;
+}
+.header .vert-text .btn-primary {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+@media (max-width: 768px) {
+  .header .vert-text {
+    padding-left: 55px;
+  }
+  .header .vert-text .btn-primary {
+    margin-left: 0px;
+  }
+}
